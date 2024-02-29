@@ -1,5 +1,5 @@
 # nv-cmdline-shortcuts
-Emulate bash shortcuts for neovim's cmdline mode
+Emulate bash shortcuts for neovim's cmdline mode.
 
 Bash Shortcuts
 ==============
@@ -14,8 +14,8 @@ Bash Shortcuts
 | C-F       | move forward one character     |     O     |
 | M-F       | move cursor FORWARD one word   |     O     |
 | M-B       | move cursor BACK one word      |     O     |
-| C-xx      | Toggle between the start of line and current cursor position |     X     |
-| C-] + x	| Where x is any character, moves the cursor forward to the next occurance of x |     X     |
+| C-xx      | Toggle between the start of line and current cursor position                        |     X     |
+| C-] + x	| Where x is any character, moves the cursor forward to the next occurance of x       |     X     |
 | M-C-] + x | Where x is any character, moves the cursor backwards to the previous occurance of x |     X     |
 
 ## Edit / Other
@@ -27,9 +27,9 @@ Bash Shortcuts
 | C-U      | Clear all / cut BEFORE cursor                               |     O     |
 | C-K      | Clear all / cut AFTER cursor                                |     O     |
 | C-Y      | paste (if you used a previous command to delete)            |     O     |
+| C-i      | command completion like Tab                                 |     O     |
 | C-W      | delete the word BEFORE the cursor                           |     X     |
 | M-d      | delete the word FROM the cursor                             |     X     |
-| C-i      | command completion like Tab                                 |     O     |
 | C-_      | Undo                                                        |     X     |
 | C-x C-u  | Undo the last changes. ctrl+ _ does the same                |     X     |
 | C-t      | Swap the last two characters before the cursor              |     X     |
