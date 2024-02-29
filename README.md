@@ -21,7 +21,7 @@ Bash Shortcuts
 ## Edit / Other
 
 | command  | description                    | Supported | 
-|----------|--------------------------------|     X     |
+|----------|--------------------------------|-----------|
 | ctrl + d          | Delete the character under the cursor |     X     |
 | ctrl + h          | Delete the previous character before cursor |     X     |
 | ctrl + u          | Clear all / cut BEFORE cursor |     X     |
