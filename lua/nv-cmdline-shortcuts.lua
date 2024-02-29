@@ -10,7 +10,7 @@ function M.init()
     vim.keymap.set('c', '<ESC>f', '<S-Right>')
 
     vim.keymap.set('c', '<C-U>', function()
-        local killed = string.sub(1, vim.fn.getcmdpos()-1)
+        local killed = string.sub(vim.fn.getcmdline(), 1, vim.fn.getcmdpos()-1)
         vim.fn.setreg("", killed)
         vim.fn.setcmdline(
             string.sub(vim.fn.getcmdline(), vim.fn.getcmdpos())
